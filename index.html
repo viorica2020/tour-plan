@@ -7,7 +7,9 @@
       href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+
     <title>Best Tour Plan - Hotel Booking</title>
   </head>
 
@@ -51,10 +53,10 @@
           </button>
         </div>
       </div>
-     
+
       <div class="navbar-button">
         <div class="container">
-        <ul class="navbar-menu">    
+          <ul class="navbar-menu">
             <li class="navbar-menu__item">
               <a href="#" class="navbar-menu__link">All Deals</a>
             </li>
@@ -78,8 +80,8 @@
             </li>
           </ul>
           <!-- /.navbar-menu -->
-          </div>
-          <!-- /.container -->
+        </div>
+        <!-- /.container -->
       </div>
     </header>
     <nav class="breadcrumb">
@@ -91,9 +93,7 @@
           <li class="breadcrumb-list__item">
             <a href="#" class="breadcrumb-list__link">Flash Offres</a>
           </li>
-          <li class="breadcrumb-list__item">
-            Grand Hilton Hotel
-          </li>
+          <li class="breadcrumb-list__item">Grand Hilton Hotel</li>
         </ul>
       </div>
     </nav>
@@ -104,25 +104,62 @@
           <div class="hotel-info__text">
             <div class="hotel-wrapper">
               <div class="stars">
-                <img src="img/Star.svg" alt="star"/>
-                <img src="img/Star.svg" alt="star"/>
-                <img src="img/Star.svg" alt="star"/>
-                <img src="img/Star.svg" alt="star"/>
-                <img src="img/Star.svg" alt="star"/>
+                <img src="img/Star.svg" alt="star" />
+                <img src="img/Star.svg" alt="star" />
+                <img src="img/Star.svg" alt="star" />
+                <img src="img/Star.svg" alt="star" />
+                <img src="img/Star.svg" alt="star" />
               </div>
               <h1 class="hotel-name hotel-info__name">GRAND HILTON HOTEL</h1>
               <span class="offer hotel-info__offer">Flash Offer</span>
             </div>
-            <p class="hotel-description hotel-info__description">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</p>
+            <p class="hotel-description hotel-info__description">
+              Half-Board/ All Inclusive + Complimentary Activities + Child Stays
+              Free
+            </p>
           </div>
           <!-- /.hotel-info__text -->
           <div class="rating hotel-info__rating">
             <span class="rating__text">User Rattings</span>
             <span class="rating__counter">4.5/5</span>
           </div>
-          <!-- /.hotel-info__right -->
         </div>
-      </div>
+          <!-- /.hotel-info__right -->
+          <div class="hotel-grid">
+            <div class="slider">
+              <!-- Slider main container -->
+              <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                     <img src="img/slider/slide.jpg" alt="slide">       
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/slider/slide2.jpg" alt="slide">       
+                 </div>
+                 <div class="swiper-slide">
+                  <img src="img/slider/slide3.jpg" alt="slide">       
+               </div>
+               <div class="swiper-slide">
+                <img src="img/slider/slide4.jpg" alt="slide">       
+             </div>
+             <div class="swiper-slide">
+              <img src="img/slider/slide5.jpg" alt="slide">       
+           </div>
+                </div>
+              
+                <!-- If we need navigation buttons -->
+                <button class="slider-button slider-button--prev"></button>
+                <button class="slider-button slider-button--next"></button>
+              </div>
+             <!-- /.slider-container -->
+            </div>
+            <!-- /.slider -->
+          </div>
+        </div>
     </section>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
